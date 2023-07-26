@@ -21,4 +21,8 @@ Bind mount project with docker container
 
 ```
 docker run -it --init -p 3002:3000 -v "$(pwd)":/developer/nodejs/node-bind-mount-project app-bind-mount-node:latest
+
+## FOR Windows
+
+docker run -it --init -p 3002:3000 -v C:/developer/shiv/projects/containers_demo/node-bind-mount-demo:/developer/nodejs/node-bind-mount-project app-bind-mount-node:latest
 ```
